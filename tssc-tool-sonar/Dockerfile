@@ -1,4 +1,4 @@
-ARG FROM_IMAGE=quay.io/tssc/tssc-base:latest
+ARG FROM_IMAGE=quay.io/tssc/tssc-base:v0.3
 FROM $FROM_IMAGE
 
 ARG SONAR_CLI=sonar-scanner-cli-4.4.0.2170-linux

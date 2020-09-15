@@ -1,4 +1,4 @@
-ARG FROM_IMAGE=quay.io/tssc/tssc-base:latest
+ARG FROM_IMAGE=quay.io/tssc/tssc-base:v0.3
 FROM quay.io/skopeo/stable:latest as skopeoimage
 
 FROM $FROM_IMAGE

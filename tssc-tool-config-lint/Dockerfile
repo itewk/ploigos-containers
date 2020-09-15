@@ -1,4 +1,4 @@
-ARG FROM_IMAGE=quay.io/tssc/tssc-base:latest
+ARG FROM_IMAGE=quay.io/tssc/tssc-base:v0.3
 FROM $FROM_IMAGE
 
 MAINTAINER Red Hat TSSC <napsspo+tssc@redhat.com>
